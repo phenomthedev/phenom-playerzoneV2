@@ -1,6 +1,5 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
-
 function CheckDistanceAndTeleport()
     local playerPed = PlayerPedId()
     local playerCoords = GetEntityCoords(playerPed)
